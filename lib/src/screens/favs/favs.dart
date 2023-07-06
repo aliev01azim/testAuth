@@ -10,6 +10,7 @@ class FavsTab extends StatelessWidget {
     return const CupertinoPageScaffold(
       navigationBar: CupertinoNavigationBar(
         middle: Text('Избранные'),
+        border: Border(),
       ),
       child: Center(
         child: Text('Избранные',style: TextStyle(color: Colors.black),),

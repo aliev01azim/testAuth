@@ -10,6 +10,7 @@ class FeedTab extends StatelessWidget {
     return const CupertinoPageScaffold(
       navigationBar: CupertinoNavigationBar(
         middle: Text('Лента'),
+        border: Border(),
       ),
       child: Center(
         child: Text('Лента',style: TextStyle(color: Colors.black),),

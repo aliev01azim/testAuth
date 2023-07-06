@@ -10,6 +10,7 @@ CupertinoThemeData theme() {
       textStyle: TextStyle(fontFamily: 'Manrope',fontWeight: FontWeight.bold),
       navTitleTextStyle: appBarStyle,
     ),
+    barBackgroundColor: Colors.white,
     scaffoldBackgroundColor: Color.fromRGBO(243, 244, 246, 1),
   );
 }

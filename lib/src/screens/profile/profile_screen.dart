@@ -25,6 +25,7 @@ class _ProfileTabState extends State<ProfileTab> {
     return CupertinoPageScaffold(
       navigationBar: const CupertinoNavigationBar(
         middle: Text('Профиль'),
+        border: Border(),
       ),
       child: SafeArea(
         child: Material(

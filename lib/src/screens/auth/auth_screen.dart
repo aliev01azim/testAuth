@@ -66,6 +66,7 @@ class _AuthScreenState extends State<AuthScreen> {
 
     return CupertinoPageScaffold(
       navigationBar: CupertinoNavigationBar(
+        border: const Border(),
         middle: const Text(
           'Авторизация',
         ),

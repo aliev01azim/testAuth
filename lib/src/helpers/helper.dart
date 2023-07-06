@@ -6,11 +6,10 @@ import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 void showInfo(context, GlobalKey key, text) async {
-  final box = key.currentContext?.findRenderObject() as RenderBox;
-  final offset = box.localToGlobal(Offset.zero);
+
   final entry = OverlayEntry(
     builder: (_) => Positioned(
-      top: offset.dy + 70,
+      top: kToolbarHeight+20,
       right: 16,
       child: Material(
         color: Colors.white,

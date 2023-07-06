@@ -10,6 +10,7 @@ class MapTab extends StatelessWidget {
     return const CupertinoPageScaffold(
       navigationBar: CupertinoNavigationBar(
         middle: Text('Карта'),
+        border: Border(),
       ),
       child: Center(
         child: Text('Карта',style: TextStyle(color: Colors.black),),
